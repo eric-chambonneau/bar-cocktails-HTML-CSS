@@ -74,3 +74,15 @@ section#cocktails img {
 .spicherry-banner {
     background: url(/media/spicherry-banner.jpg);
 }
+
+.first-row {
+    display: flex;
+}
+
+.cocktail-item {
+    flex: 0.5;
+}
+
+.second-row {
+    display: flex;
+}
