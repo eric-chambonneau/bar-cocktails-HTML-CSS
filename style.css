@@ -1,7 +1,12 @@
 body {
     background: url(../media/header-section2.jpg) no-repeat fixed;
+    background-size: cover;
     margin: 0 auto;
     color: blue;
+}
+
+.section_container {
+    margin: 10px 20% 10px 20%;
 }
 
 header {
@@ -54,6 +59,11 @@ section#cocktails img {
     height: 120px;
 }
 
+section#cocktails {
+    padding: 20px 20% 20px 20%;
+    background: url(/media/cocktail-section.jpg);
+}
+
 .sunmoon-banner {
     background: url(/media/sunmoon-banner.jpg);
     width: auto;
@@ -79,8 +89,26 @@ section#cocktails img {
     display: flex;
 }
 
-.cocktail-item {
+.col-3 {
+    flex: 0.33;
+}
+
+.col-2 {
     flex: 0.5;
+}
+
+.cocktail-item {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+
+    margin: 10px;
+    height: 300px;
+}
+
+.cocktail-item img {
+    height: 120px;
 }
 
 .second-row {
